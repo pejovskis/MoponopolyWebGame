@@ -1,0 +1,50 @@
+.card-div {
+    position: absolute;
+    right: -50%;
+    background-color: gray;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px cyan;
+    z-index: 1;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#return-card-btn {
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px yellow;
+    animation: rBtnBlinker 8s infinite;
+    cursor: pointer;
+}
+
+@keyframes rBtnBlinker {
+
+    0% {
+        box-shadow: 0 0 10px cyan; 
+    }
+
+    25% {
+        box-shadow: 0 0 10px pink;
+    }
+
+    50% {
+        box-shadow: 0 0 10px green;
+    }
+
+    75% {
+        box-shadow: 0 0 10px blue;
+    }
+
+    100% {
+        box-shadow: 0 0 10px cyan;
+    }
+    
+}

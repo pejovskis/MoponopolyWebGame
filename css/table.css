@@ -1,0 +1,145 @@
+/* fields border */
+.bb {
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px black;
+}
+
+.edge-field {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-shadow: 1px 3px 1px gray;
+}
+
+.field-row-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+}
+
+.field-row-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100px;
+}
+
+.field-col-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+}
+
+.field-col-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+}
+
+.field-r1-color{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.field-r2-color {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.field-c1-color {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 40px;
+}
+
+.field-c2-color {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 40px;
+}
+
+.row-fields {
+    display: flex;
+    width: 100%;
+}
+
+.column-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.land-one {
+    background-color: brown;
+}
+
+.land-two {
+    background-color: gray;
+}
+
+.land-three {
+    background-color: pink;
+}
+
+.land-four {
+    background-color: orange;
+}
+
+.land-five {
+    background-color: red;
+}
+
+.land-six {
+    background-color: yellow;
+}
+
+.land-seven {
+    background-color: green;
+}
+
+.land-eight {
+    background-color: blue;
+}
+
+.land-rail {
+    background-color: black;
+}
+
+.field-5-ta {
+    text-align: center;
+}
+
+.field-start {
+    background-color: green;
+}
+
+.field-prison {
+    background-color: gray;
+}
+
+.field-parking {
+    background-color: cyan;
+}

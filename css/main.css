@@ -1,0 +1,29 @@
+.main-layout {
+    position: relative;
+    display: flex;
+}
+
+#main-table {
+    position: relative;
+    width: 1300px;
+    height: 1300px;
+    background-color: yellowgreen;
+}
+
+.monopoly-bg {
+    font-weight: bold;
+    font-size:120px;
+    letter-spacing: 50px;
+    transform: rotate(-45deg);
+    text-shadow: 0px 0px 5px black, 3px 2px 8px cyan, 8px -8px 8px red;
+}
+
+.bg-layout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

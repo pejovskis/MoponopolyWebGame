@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/table.css">
+   <link rel="stylesheet" href="css/players.css">
+   <link rel="stylesheet" href="css/message.css">
+   <link rel="stylesheet" href="css/nameSetStyle.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="main-layout">
+
+      <div id="main-table">
+
+         <div id="card-d" class="card-div">
+            <p id="special-msg-p" style="font-size: 30px;"> TEXT EXAMPLE </p>
+            <button id="return-card-btn"> return card </button>
+         </div>
+
+         <div class="bg-layout">
+            <p class="monopoly-bg">MONOPOLY</p>
+         </div>
+
+         <div id="player-one">P1</div>
+         <div id="player-two">P2</div>
+
+         <div class="row-fields">
+
+            <div id="field-0" class="bb edge-field field-start">
+               <h1>START</h1>
+            </div>
+
+            <div id="field-1" class="bb field-row-1">
+               <h3>Skopje</h3>
+               <h4>Price: 180 </h4>
+               <div class="field-r1-color land-one"></div>
+            </div>
+            <div id="field-2" class="bb field-row-1">
+               <h3>Surprise</h3>
+            </div>
+            <div id="field-3" class="bb field-row-1">
+               <h3>Bitola</h3>
+               <h4>Price: 150 </h4>
+               <div class="field-r1-color land-one"></div>
+            </div>
+            <div id="field-4" class="bb field-row-1">
+               <h3>Pay 30 Tax</h3>
+            </div>
+            <div id="field-5" class="bb field-row-1 field-5-ta">
+               <h3>Railway South</h3>
+               <h4>Price: 150 </h4>
+               <div class="field-r1-color land-rail"></div>
+            </div>
+            <div id="field-6" class="bb field-row-1">
+               <h3>Beograd</h3>
+               <h4>Price: 210 </h4>
+               <div class="field-r1-color  land-two"></div>
+            </div>
+            <div id="field-7" class="bb field-row-1">
+               <h3>Chance</h3>
+            </div>
+            <div id="field-8" class="bb field-row-1">
+               <h3>Budva</h3>
+               <h4>Price: 220 </h4>
+               <div class="field-r1-color land-two"></div>
+            </div>
+            <div id="field-9" class="bb field-row-1">
+               <h3>Zagreb</h3>
+               <h4>Price: 250 </h4>
+               <div class="field-r1-color land-two"></div>
+            </div>
+
+            <div id="field-10" class="bb edge-field field-prison">
+               <h1>PRISON</h1>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-39" class="bb field-col-2">
+               <h3>Las Vegas</h3>
+               <h4>Price: 400</h4>
+               <div class="field-c2-color land-eight"></div>
+            </div>
+            <div id="field-11" class="bb field-col-1 ">
+               <h3>Wien</h3>
+               <h4>Price: 280 </h4>
+               <div class="field-c1-color land-three"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-38" class="bb field-col-2">
+               <h3>US Tax</h3>
+            </div>
+            <div id="field-12" class="bb field-col-1">
+               <h3>Deutsche Bahn</h3>
+               <h4>Price: 120</h4>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-37" class="bb field-col-2">
+               <h3>New York</h3>
+               <h4>Price: 380</h4>
+               <div class="field-c2-color land-eight"></div>
+            </div>
+            <div id="field-13" class="bb field-col-1">
+               <h3>Berlin</h3>
+               <h4>Price: 300 </h4>
+               <div class="field-c1-color land-three"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-36" class="bb field-col-2">
+               <h3>Chance</h3>
+            </div>
+            <div id="field-14" class="bb field-col-1">
+               <h3>Köln</h3>
+               <h4>Price: 270 </h4>
+               <div class="field-c1-color land-three"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-35" class="bb field-col-2">
+               <h3>Railway west</h3>
+               <h4>Price: 150</h4>
+               <div class="field-c2-color land-rail"></div>
+            </div>
+            <div id="field-15" class="bb field-col-1">
+               <h3>Railway east</h3>
+               <h4>Price: 150</h4>
+               <div class="field-c1-color land-rail"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-34" class="bb field-col-2">
+               <h3>Miami</h3>
+               <h4>Price: 440</h4>
+               <div class="field-c2-color land-seven"></div>
+            </div>
+            <div id="field-16" class="bb field-col-1">
+               <h3>Paris</h3>
+               <h4>Price: 350 </h4>
+               <div class="field-c1-color land-four"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-33" class="bb field-col-2">
+               <h3>Surprise</h3>
+            </div>
+            <div id="field-17" class="bb field-col-1">
+               <h3>Surprise</h3>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-32" class="bb field-col-2">
+               <h3>Bahamas</h3>
+               <h4>Price: 470</h4>
+               <div class="field-c2-color land-seven"></div>
+            </div>
+            <div id="field-18" class="bb field-col-1">
+               <h3>Monaco</h3>
+               <h4>Price: 400 </h4>
+               <div class="field-c1-color land-four"></div>
+            </div>
+         </div>
+
+         <div class="column-fields">
+            <div id="field-31" class="bb field-col-2">
+               <h3>Hawaii</h3>
+               <h4>Price: 500</h4>
+               <div class="field-c2-color land-seven"></div>
+            </div>
+            <div id="field-19" class="bb field-col-1">
+               <h3>Barcelona</h3>
+               <h4>Price: 330 </h4>
+               <div class="field-c1-color land-four"></div>
+            </div>
+         </div>
+
+         <div class="row-fields">
+            <div id="field-30" class="bb edge-field field-prison">
+               <h1> PRISON </h1>
+            </div>
+
+            <div id="field-29" class="bb field-row-2">
+               <h3>Canberra</h3>
+               <h4>Price: 300</h4>
+               <div class="field-r2-color land-six"></div>
+            </div>
+            <div id="field-28" class="bb field-row-2">
+               <h3>Airlines</h3>
+               <h4>Price: 200</h4>
+            </div>
+            <div id="field-27" class="bb field-row-2">
+               <h3>Sydney</h3>
+               <h4>Price: 340</h4>
+               <div class="field-r2-color land-six"></div>
+            </div>
+            <div id="field-26" class="bb field-row-2">
+               <h3>Melbourne</h3>
+               <h4>Price: 320</h4>
+               <div class="field-r2-color land-six"></div>
+            </div>
+            <div id="field-25" class="bb field-row-2 field-5-ta">
+               <h3>Railway North</h3>
+               <h4>Price: 150</h4>
+               <div class="field-r2-color land-rail"></div>
+            </div>
+            <div id="field-24" class="bb field-row-2">
+               <h3>London</h3>
+               <h4>Price: 310</h4>
+               <div class="field-r2-color land-five"></div>
+            </div>
+            <div id="field-23" class="bb field-row-2">
+               <h3>Brüssel</h3>
+               <h4>Price: 330</h4>
+               <div class="field-r2-color land-five"></div>
+            </div>
+            <div id="field-22" class="bb field-row-2">
+               <h3>Chance</h3>
+            </div>
+            <div id="field-21" class="bb field-row-2">
+               <h3>Amsterdam</h3>
+               <h4>Price: 300</h4>
+               <div class="field-r2-color land-five"></div>
+            </div>
+
+            <div id="field-20" class="bb edge-field field-parking">
+               <h1>PARKING</h1>
+            </div>
+         </div>
+      </div>
+
+      <div class="right-layout">
+         <div id="notification-buttons-div">
+            <h2 class="info-text">Notification log</h2>
+            <h3 id="console-info"></h3>
+            <p id="player-turn-p" class="info-text">Player's turn:</p>
+            <div>
+               <button class="btn" id="roll-btn" disabled>Roll</button>
+               <button class="btn" id="buy-btn" disabled>Buy</button>
+               <button class="btn" id="turn-over-btn" disabled>Over</button>
+               <button class="btn" id="start-btn"> START </button>
+               <button class="btn" id="read-btn" style="display: none;"> READ</button>
+               <button class="btn" id="upgrade-btn" style="display: none;"> UPGRADE </button>
+            </div>
+            <p id="roll-result-p" class="info-text">Roll result: </p>
+         </div>
+         <div id="player-1-info-div">
+            <p id="player-name-p" class="info-text">Player 1</p>
+            <p id="player-cash-p" class="info-text info-p">Cash: 0€</p>
+            <p id="player-position-p" class="info-text info-p">Position: </p>
+            <p class="info-text " style="margin:0;">Items:</p>
+            <h2 id="player-items-ul">
+
+            </h2>
+         </div>
+         <div id="player-2-info-div">
+            <p id="player-name2-p" class="info-text">Player 2</p>
+            <p id="player-cash2-p" class="info-text info-p">Cash: 0€</p>
+            <p id="player-position2-p" class="info-text info-p">Position: </p>
+            <p class="info-text" style="margin:0;">Items:</p>
+            <h2 id="player-items2-ul">
+
+            </h2>
+         </div>
+
+
+      </div>
+
+
+   </div>
+
+   <div id="name-set-div">
+      <div id="name-set-layout">
+          <div>
+              <p class="set-name-p"> First Player name: </p>
+              <input id="set-name-f-input" class="set-name-input" type="text">
+          </div>
+
+          <div>
+              <p class="set-name-p"> Second Player name: </p>
+              <input id="set-name-s-input" class="set-name-input" type="text">
+          </div>
+
+          <button id="set-name-btn" type="submit"> Submit </button>
+      </div>
+  </div>
+
+   <script src="engine.js"></script>
+</body>
+
+</html>

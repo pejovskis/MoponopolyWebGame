@@ -1,0 +1,60 @@
+#name-set-div {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+}
+
+#name-set-layout {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 70vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.set-name-p {
+    font-size: 50px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.set-name-input {
+    width: 500px;
+    height: 80px;
+    box-shadow: 0 0 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#set-name-btn {
+    cursor: pointer;
+    height: 80px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
+
+#set-name-btn:hover {
+    opacity: 0.8;
+}
+
+#set-name-btn:active {
+    background-color: brown;
+}
